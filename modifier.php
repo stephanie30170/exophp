@@ -1,4 +1,4 @@
-modifier.php
+
 <?php
 session_start();
 
@@ -93,7 +93,7 @@ require_once('fermer.php');
 </p>
 <p>  
     <label for="datesortiefilm">Date</label>
-    <input type="text" name="datesortiefilm" id="datesortiefilm" value="<?= $produit['datesortiefilm']?>">
+    <input type="date" name="datesortiefilm" id="datesortiefilm" value="<?= $produit['datesortiefilm']?>">
 </p>
 <p>
     <label for="synopsis">Synopsis</label>

@@ -42,7 +42,7 @@ require_once('fermer.php');
     <h2>Titre : <?= $produit['titre']?></h2>
     <p>ID : <?= $produit['id'] ?></p>
     <p>Synopsis : <?= $produit['synopsis'] ?> </p>
-    <p>url de l'affiche : <?= $produit['affiche'] ?></p>
+    <p>l'affiche : <img src="<?= $produit['affiche'] ?>"width=150px/></p>
     <p>Date sortie de film : <?= $produit['datesortiefilm'] ?></p>
     <p>Le réalisateur: <?= $produit['realisateur'] ?></p>
     <p><button><a href="modifier.php?id=<?= $produit['id'] ?>">Modifier</a></button> 
